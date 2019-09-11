@@ -238,6 +238,7 @@
                                     <option selected="selected">@lang('Bangla')</option>
                                     <option>@lang('English')</option>
 									<option>@lang('Spanish')</option>
+									<option>@lang('French')</option>
                                 </select>
 
                                 @if ($errors->has('version'))
@@ -299,7 +300,7 @@
                         </div>
 
                         <div class="form-group{{ $errors->has('address') ? ' has-error' : '' }}">
-                            <label for="address" class="col-md-4 control-label">* @lang('address')</label>
+                            <label for="address" class="col-md-4 control-label">* @lang('Address')</label>
 
                             <div class="col-md-6">
                                 <input id="address" type="text" class="form-control" name="address" value="{{ old('address') }}"

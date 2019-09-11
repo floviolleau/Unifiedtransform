@@ -9,7 +9,7 @@
                 <div class="panel-body table-responsive">
                     @include('schools.form')
                     <h2>@lang('School List')</h2>
-                    <h4>@lang('Manage Departments, Classs, Sections, Student Promotion, Course')</h4>
+                    <h4>@lang('Manage Departments, Class, Sections, Student Promotion, Course')</h4>
                     <table class="table table-condensed">
                         <thead>
                             <tr>
