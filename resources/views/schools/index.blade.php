@@ -18,7 +18,7 @@
                                 <th scope="col">@lang('Code')</th>
                                 <th scope="col">@lang('About')</th>
                                 <th scope="col">@lang('Edit')</th>
-                                <th scope="col">+@lang('Admin')</th>
+                                <th scope="col">@lang('Admin')</th>
                                 <th scope="col">@lang('View Admins')</th>
                             </tr>
                         </thead>
@@ -36,7 +36,7 @@
                                     </td>
                                     <td>
                                         <a class="btn btn-danger btn-sm" role="button" href="{{url('register/admin/'.$school->id.'/'.$school->code)}}">
-                                            <small>+ @lang('Create Admin')</small>
+                                            <small>@lang('Create Admin')</small>
                                         </a>
                                     </td>
                                     <td>
